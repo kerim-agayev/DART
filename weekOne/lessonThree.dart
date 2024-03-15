@@ -39,6 +39,7 @@ void main() {
   double myMoney = 2200;
   double sum = 0;
   double sumtwo = 0;
+    double sumthree = 0;
   Set<String> products = {'tv', 'mobil', 'soyuducu'};
   Map<String, double> market = {
     'tv': 1000,
@@ -78,4 +79,12 @@ void main() {
   print("sumtwo:$sumtwo");
   //! Mapde ['key'] - yazanda - value qaytarir.
   print(market['tv']);
+  //method 3
+
+  products.forEach((element) {
+    if (market.containsKey(element)) {
+      sumthree += market[element]!;
+    }
+  });
+  print('sumthree:$sumthree');
 }
