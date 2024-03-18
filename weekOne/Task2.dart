@@ -6,7 +6,7 @@ void main() {
 
   // While
   while (true) {
-    // 
+    //
     print("1. Yeni Mehsul Elave et");
     print("2. Mehsul Melumatlarini Deyisdir");
     print("3. Mehsul Sil");
@@ -52,6 +52,7 @@ void newProduct(Map<String, int> mehsulSiyahisi) {
 //!mehsulSiyahisi[mehsulAdi]
   mehsulSiyahisi[mehsulAdi] = mehsulMiqdari;
   print("$mehsulAdi, $mehsulMiqdari eded siyahiya elave edildi!");
+  print('*' * 30);
 }
 
 // update
@@ -68,6 +69,7 @@ void updateProduct(Map<String, int> mehsulSiyahisi) {
   } else {
     print("$mehsulAdi siyahida tapila bilmedi!");
   }
+  print('*' * 30);
 }
 
 // delete
@@ -81,6 +83,7 @@ void deleteProduct(Map<String, int> mehsulSiyahisi) {
   } else {
     print("$mehsulAdi siyahida tapila bilmedi!");
   }
+  print('*' * 30);
 }
 
 // Toplam mehsul sayi
@@ -91,6 +94,7 @@ void totalProductCount(Map<String, int> mehsulSiyahisi) {
     toplamMiqdar += miqdar;
   });
   print("Toplam mehsul sayi: $toplamMiqdar");
+  print('*' * 30);
 }
 
 // information
@@ -104,4 +108,5 @@ void informationProduct(Map<String, int> mehsulSiyahisi) {
   } else {
     print("$mehsulAdi siyahida tapilmadi!");
   }
+  print('*' * 30);
 }
