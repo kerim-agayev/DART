@@ -23,18 +23,20 @@ void main(List<String> args) {
     print("element:$element");
     //! yeniden yoxla bunu. ferqli bir mentiqle isleyir
     if (a == null) {
+      print('1.');
       a = int.parse(element);
     } else if (b == null) {
+      print('2.');
       b = int.parse(element);
     } else if (c == null) {
+      print('3.');
       c = int.parse(element);
     } else if (d == null) {
+      print('4.');
       d = int.parse(element);
     }
   });
-  numList.sort((a, b) => int.parse(a) - int.parse(b));
-  print('en boyuk number: ${numList[numList.length-1]}');
-  print('en kicik number: ${numList[0]}');
+
   print('a:$a');
   print('b:$b');
   print('c:$c');

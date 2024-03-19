@@ -1,5 +1,5 @@
 import 'dart:io';
-
+//daxil edilen ededlerden min ve max tap.
 void main() {
   int? a;
   int? b;
