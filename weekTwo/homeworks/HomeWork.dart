@@ -4,9 +4,9 @@ import 'dart:io';
 void main(List<String> args) {
   HomeWork homeWork = HomeWork();
 
-  //homeWork.Task1();
-  homeWork.Task2();
-  //homeWork.Task3();
+  homeWork.Task1();
+  // homeWork.Task2();
+  // homeWork.Task3();
 }
 
 class HomeWork {
