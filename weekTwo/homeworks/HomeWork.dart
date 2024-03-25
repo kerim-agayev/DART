@@ -183,3 +183,6 @@ class HomeWork {
     }
   }
 }
+
+// "console": "terminal",
+// "program": "${file}"
