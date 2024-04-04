@@ -24,8 +24,6 @@ void listSorting(List<double> thisList, int n) {
   }
 }
 
-
-
 void myLoopInList(int n, List<double> thisList, int i) {
   if (thisList[i] > thisList[i + 1]) {
     double temp = thisList[i];
@@ -42,6 +40,8 @@ void myLoopInList(int n, List<double> thisList, int i) {
   }
 }
 
+
+
 List<double> fixList(List<double> list, int index) {
   if (index + 1 <= list.length) {
     list[index] = double.parse(list[index].toStringAsFixed(2));
@@ -49,3 +49,5 @@ List<double> fixList(List<double> list, int index) {
   }
   return list;
 }
+
+
