@@ -61,7 +61,7 @@ List<int> Fib(int input) {
 }
 
 functionBubbleSort(List<int> list, int number) {
-//[1, 13, 3, 55, 34, 5, 21, 2, 8]
+  //[1, 13, 3, 55, 34, 5, 21, 2, 8]
   int i, j, temp;
   bool swapped;
   for (i = 0; i < number - 1; i++) {
