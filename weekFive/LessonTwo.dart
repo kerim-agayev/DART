@@ -74,7 +74,7 @@ abstract class Fruits {
   //instance yaratmaq olmur
 
   void display() {} //? concrete - imza + body
-  void write() //? abstract - imza
+  void write(); //? abstract - imza
 }
 
 class Apple implements Fruits {
@@ -82,7 +82,7 @@ class Apple implements Fruits {
   void display() {
     // TODO: implement display
   }
-  
+
   @override
   void write() {
     // TODO: implement write
