@@ -17,4 +17,15 @@ void main(List<String> args) {
   }
 }
 
-enum Weekdays { monday, tuesday, wednesday, thursday, friday, saturday, sunday }
+enum Weekdays {
+  monday(1),
+  tuesday(2),
+  wednesday(3),
+  thursday(4),
+  friday(5),
+  saturday(6),
+  sunday(7);
+
+  final int value;
+  const Weekdays(this.value);
+}
